@@ -80,7 +80,7 @@ const aboutUsRoute = {
 
 const error404Route = {
   name: 'Error 404',
-  component: <h1>Error 404</h1>,
+  component: () => <h1>Error 404</h1>,
   route: Route,
 }
 // flatten the list of all nested routes
